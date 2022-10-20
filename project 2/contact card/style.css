@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #23252C;
+    display:flex;
+    flex-direction: row;
+    width: 550px;
+    height: 900px;
+    margin-bottom: 10%;
+    
+
+    
+}
+.container{
+    border-radius: 5%;
+    position: absolute;
+    width: 317px;
+    height: 780px;
+    margin:20%;
+    margin-bottom: 10%;
+    
+    color: #FFFFFF;
+    background: #1A1B21;
+
+
+    
+}
+ .header{
+     /* background: #1A1B21; */
+     margin:0;
+     width:317px;
+     height:317px;
+     
+ }
+ .header-profile{
+     size: 100%;
+     border-radius: 10px 10px 0px 0px;
+ }
+ main{
+     background-color: #1A1B21;
+   
+     width:317px;
+ }
+ .main-name{
+     
+    height: 25.81px;
+    position: static;
+    padding-left: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+ }
+ .main-job{
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+    
+ }
+ 
+ .email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 247px;
+    height: 34px;
+    margin-left: 13%;
+    
+ }
+ .email>h2{
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+ }
+ .main-content{
+     width: 247px;
+    height: 160px;
+    margin:13%;
+
+ }
+ .main-content>h3{
+     width: 242.71px;
+    height: 21px;
+    left: 151px;
+    
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+ }
+ .Interests{
+     padding-top: 20px;
+ }
+ .main-content>p{
+     width: 247px;
+    height: 61px;
+    left: 151px;
+    top: 561px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+ }
+ footer{
+     background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    width: 317px;
+    height: 64px;
+ }
+ footer>img{
+     margin:5%;
+     align-items: center;
+     display: inline-flex;
+     padding-inline-start: 3px;
+     
+ }
+ 
+ 
+
+
+
